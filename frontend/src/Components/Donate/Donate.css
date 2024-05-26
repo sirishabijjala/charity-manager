@@ -1,0 +1,192 @@
+
+
+  .custom-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-table p {
+    margin: 0;
+  }
+  
+  .custom-table input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  /* Donate.css */
+
+/* Style for the thank you message */
+.thank-you-message {
+  background-color: #FDBE33;
+  padding: 10px;
+
+  margin-top: 20px;
+  font-size: 16px;
+  color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: bold;
+}
+/* Donate.css */
+
+/* Form container */
+.form-container1 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 50%;
+  margin-top: 6%;
+}
+
+/* Form labels */
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Form inputs */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button */
+.form-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.form-button:hover {
+  background-color: #45a049;
+}
+.i1 {
+  display: flex; /* Use flexbox to arrange items */
+
+  /* Center items vertically */
+}
+
+/* Style for the image */
+.i1 img {
+  width: 65%; /* Adjust the width of the image */
+  max-width: 500px;
+  margin-left: 8%;
+  margin-top:7% ;
+  height: 400px;
+   /* Set a maximum width for the image */
+ 
+   /* Add some spacing between the image and the form */
+
+}
+
+/* Form container */
+.form-container1 {
+  width: 50%; /* Adjust the width of the form container */
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+.s2{
+  align-items: center;
+  margin-left: 35%;
+  color: #4a4c70;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #4a4c70;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #FDBE33;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+

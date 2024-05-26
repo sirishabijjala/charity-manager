@@ -1,0 +1,91 @@
+.welcome-message {
+    background-color: #FDBE33;
+    padding: 10px;
+  
+    margin-top: 30px;
+    font-size: 16px;
+    color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+  }
+  /* Donate.css */
+  
+  /* Form container */
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-left: 70%;
+    margin-top: 6%;
+    margin-right: 30%;
+  }
+  
+  /* Form labels */
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Form inputs */
+  .form-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button */
+  .form-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #45a049;
+  }
+  .i2{
+    display: flex; /* Use flexbox to arrange items */
+  
+    /* Center items vertically */
+  }
+  
+  /* Style for the image */
+  .i2 img {
+    width: 50%; /* Adjust the width of the image */
+    max-width: 500px;
+     /* Set a maximum width for the image */
+   
+     /* Add some spacing between the image and the form */
+  
+  }
+  
+  /* Form container */
+  .form-container {
+    width: 50%; /* Adjust the width of the form container */
+    margin-left: 30%;
+  }
+  .s2{
+    align-items: center;
+    margin-left: 35%;
+  }
+  .gradient-custom {
+/* fallback for old browsers */
+background: #6a11cb;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
